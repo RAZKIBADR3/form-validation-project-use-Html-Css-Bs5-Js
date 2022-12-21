@@ -21,10 +21,10 @@ function valider(){
         return false;
     }
     if (pass != spass){
-        NewAlert('bad','les mot de pass etre dovient egaux')
+        NewAlert('notbad','les mot de pass etre dovient egaux')
         return false;
     }
-    NewAlert('good','Valid👍')
+    NewAlert('sogood','Valid👍')
 }
 
 function NewAlert(state,text){
